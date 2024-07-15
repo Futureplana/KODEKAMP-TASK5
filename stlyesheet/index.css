@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+/* custom background color */
+.bg_color{
+    background-color: #030521 !important;
+}
+
+/* custom text color */
+.text_color{
+    color: #030521 !important;
+    
+}
+
+
+/* hero section styling */
+.bg-image{
+    background-image: url('../images/Web_hero.png');
+             background-repeat: no-repeat;
+             background-size: cover;
+}
+
+
+.bg-image1{
+    background-image: url('../images/about.jpeg');
+             background-repeat: no-repeat;
+             background-size: cover;
+}
+
+.bg-image2{
+    background-image: url('../images/contact.jpeg');
+             background-repeat: no-repeat;
+             background-size: cover;
+}
+
+
+
+.bg-image3{
+    background-image: url('../images/blog.jpeg');
+             background-repeat: no-repeat;
+             background-size: cover;
+}
+
+
+
+.my_custom_row{
+    
+    height: 400px;
+  }
+
+
+
+/* media query for small devices */
+@media  (max-width: 576px) {
+    .reverse_sm {
+        display: flex;
+        flex-direction: column-reverse;
+        gap: 0 !important;
+        
+    }
+
+    .navbar-toggler{
+    
+        background-color: #f0f8ff; 
+    }
+
+    nav .tech{
+        font-size: 90%;
+        
+    }
+
+    
+    .bg_position{
+        background-position-x: -35rem;
+    }
+
+
+}
